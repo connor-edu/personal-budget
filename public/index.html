@@ -107,7 +107,7 @@
     datasets: [
       {
         data: [],
-        backgroundColor: ["#ffcd56", "#ff6384", "#36a2eb", "#E952DE", "#ED254E", "#18FF6D", "#5BC3EB"],
+        backgroundColor: [],
       },
     ],
     labels: [],
@@ -125,6 +125,7 @@
     axios.get("/budget").then((res) => {
       data.datasets[0].data = res.data.map((a) => a.budget);
       data.labels = res.data.map((a) => a.title);
+      data.datasets[0].backgroundColor = res.data.map((a) => a.color);
       createChart();
     });
   }

@@ -1,9 +1,9 @@
 [
-  { "title": "Eat out", "budget": 25 },
-  { "title": "Rent", "budget": 375 },
-  { "title": "Groceries", "budget": 110 },
-  { "title": "Phone", "budget": 120 },
-  { "title": "Gas", "budget": 60 },
-  { "title": "Netflix", "budget": 15 },
-  { "title": "Video Games", "budget": 95 }
+  { "title": "Eat out", "budget": 25, "color": "#ffcd56" },
+  { "title": "Rent", "budget": 375, "color": "#ff6384" },
+  { "title": "Groceries", "budget": 110, "color": "#36a2eb" },
+  { "title": "Phone", "budget": 120, "color": "#E952DE" },
+  { "title": "Gas", "budget": 60, "color": "#ED254E" },
+  { "title": "Netflix", "budget": 15, "color": "#18FF6D" },
+  { "title": "Video Games", "budget": 95, "color": "#5BC3EB" }
 ]
